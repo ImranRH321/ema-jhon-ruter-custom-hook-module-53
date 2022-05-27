@@ -1,0 +1,35 @@
+.review_item {
+  border: 1px solid #95a0a7;
+  border-radius: 8px;
+  display: flex;
+  width: 571px;
+  padding: 8px;
+}
+
+.review_item img {
+  width: 91px;
+  border-radius: 6px;
+}
+
+.reivew-item-details-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-left: 14px;
+}
+.review-details p,
+h5 {
+  margin: 0;
+}
+
+.delete-button {
+  background: rgba(235, 87, 87, 0.3);
+  width: 55px;
+  height: 55px;
+  border: none;
+  border-radius: 50%;
+}
+.delete-icon {
+  color: red;
+  font-size: 20px;
+}
